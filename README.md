@@ -11,18 +11,12 @@ Plain HTML/CSS/JS — no build step, no external fonts, scripts or trackers.
 | `/support/` | Toast Clicker Support |
 | `/terms/` | Terms of Use |
 
-## Before going live
+## Contact details
 
-Replace the highlighted placeholders (search the files for `placeholder`):
+- Contact email: crumbstudios@proton.me (Privacy, Support and Terms pages)
+- Governing law: New Jersey (Terms)
 
-- `[CONTACT EMAIL]` in `privacy/index.html`, `support/index.html`, `terms/index.html`
-- `[STATE WHERE CRUMB STUDIOS LLC IS REGISTERED]` in `terms/index.html`
-
-To make the email a clickable link, replace each
-`<span class="placeholder">[CONTACT EMAIL]</span>` with
-`<a href="mailto:you@example.com">you@example.com</a>`.
-
-Also confirm that section 4 of the privacy policy ("Information the App handles directly") matches what Toast Clicker actually does.
+The privacy policy has two marked placeholder blocks (search for `placeholder`) for advertising and analytics services. Fill them in if either is ever added to Toast Clicker.
 
 When you change a policy, update the "Effective date and last updated" line at the top of it.
 
