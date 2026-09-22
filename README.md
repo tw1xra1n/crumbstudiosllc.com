@@ -16,7 +16,7 @@ Plain HTML/CSS/JS — no build step, no external fonts, scripts or trackers.
 - Contact email: crumbstudios@proton.me (Privacy, Support and Terms pages)
 - Governing law: New Jersey (Terms)
 
-The privacy policy has two marked placeholder blocks (search for `placeholder`) for advertising and analytics services. Fill them in if either is ever added to Toast Clicker.
+Section 7 of the privacy policy says ads are planned. Before shipping ads (or analytics), update that section with the provider, the data it collects, and user choices.
 
 When you change a policy, update the "Effective date and last updated" line at the top of it.
 
