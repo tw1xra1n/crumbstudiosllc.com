@@ -56,7 +56,7 @@ body {
 
 main { flex: 1; }
 
-img, svg { max-width: 100%; display: block; }
+img, svg { max-width: 100%; height: auto; display: block; }
 
 a { color: var(--accent-strong); text-underline-offset: 2px; }
 a:hover { color: var(--accent); }
