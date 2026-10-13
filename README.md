@@ -8,6 +8,7 @@ Plain HTML/CSS/JS — no build step, no external fonts, scripts or trackers.
 | --- | --- |
 | `/` | Home |
 | `/privacy/` | Toast Clicker Privacy Policy |
+| `/merge-kingdom/privacy/` | Merge Kingdom Survivors Privacy Policy |
 | `/support/` | Toast Clicker Support |
 | `/terms/` | Terms of Use |
 
