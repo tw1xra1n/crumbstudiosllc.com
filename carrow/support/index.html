@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Support | Carrow | Crumb Studios</title>
+  <meta name="description" content="Help for Carrow: saving your spot automatically, floor detection, walking back and restoring Carrow Pro.">
+  <link rel="canonical" href="https://crumbstudiosllc.com/carrow/support/">
+  <meta name="theme-color" content="#fbf7f1" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#17120e" media="(prefers-color-scheme: dark)">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Crumb Studios">
+  <meta property="og:title" content="Support | Carrow | Crumb Studios">
+  <meta property="og:description" content="Help for Carrow: saving your spot automatically, floor detection, walking back and restoring Carrow Pro.">
+  <meta property="og:url" content="https://crumbstudiosllc.com/carrow/support/">
+  <meta property="og:image" content="https://crumbstudiosllc.com/assets/img/og-image.png?v=2">
+  <link rel="icon" href="/favicon.ico?v=2" sizes="any">
+  <link rel="icon" href="/assets/img/icon-192.png?v=2" type="image/png" sizes="192x192">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png?v=2">
+  <link rel="stylesheet" href="/assets/css/style.css?v=3">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="/" aria-label="Crumb Studios home">
+        <img class="brand-mark" src="/assets/img/crumb-mark.png?v=2" width="32" height="32" alt="">
+        <span>Crumb Studios</span>
+      </a>
+      <button class="nav-toggle" type="button" aria-controls="site-nav" aria-expanded="false" aria-label="Menu">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+      </button>
+      <nav class="site-nav" id="site-nav" aria-label="Main">
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="/privacy/">Privacy</a></li>
+          <li><a href="/support/">Support</a></li>
+          <li><a href="/terms/">Terms</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <header class="page-header">
+      <div class="container">
+        <p class="eyebrow">Carrow: Parked Car Finder</p>
+        <h1>Support</h1>
+        <p class="meta">Help for Carrow, the parking garage car finder from Crumb Studios.</p>
+      </div>
+    </header>
+
+    <div class="container doc-layout">
+      <nav class="toc" aria-label="On this page">
+        <h2>On this page</h2>
+        <ol>
+          <li><a href="#contact">Contact us</a></li>
+          <li><a href="#start">Getting started</a></li>
+          <li><a href="#auto">Saving automatically</a></li>
+          <li><a href="#floors">How floor detection works</a></li>
+          <li><a href="#walk">Walking back</a></li>
+          <li><a href="#trouble">Troubleshooting</a></li>
+          <li><a href="#pro">Carrow Pro &amp; restoring</a></li>
+          <li><a href="#more">Policies</a></li>
+        </ol>
+      </nav>
+
+      <article class="prose">
+        <section class="contact-card" id="contact" aria-labelledby="contact-title">
+          <h2 id="contact-title">Contact us</h2>
+          <p>Having trouble finding your car with Carrow, or have an idea? Email us and we&rsquo;ll help.</p>
+          <p class="contact-email"><a href="mailto:crumbstudios@proton.me?subject=Carrow%20support">crumbstudios@proton.me</a></p>
+        </section>
+
+        <h2 id="start">Getting started</h2>
+        <ol>
+          <li>When you leave your car, open Carrow and tap <strong>I Parked</strong>. Carrow saves the time and GPS location.</li>
+          <li>Add the level and section you see on the nearest sign, or (with Carrow Pro) photograph the sign and Carrow reads it for you.</li>
+          <li>With Carrow Pro, Carrow also records the barometer reading and your steps on the way out. Tap <strong>I&rsquo;ve Left the Garage</strong> when you&rsquo;re outside.</li>
+          <li>When you come back, Carrow shows your car&rsquo;s level, how many floors up or down it is, a map, and an arrow to walk back.</li>
+        </ol>
+
+        <h2 id="auto">Saving automatically</h2>
+        <p>iPhone doesn&rsquo;t let apps detect when you leave your car, but the Shortcuts app can run Carrow for you:</p>
+        <ol>
+          <li>Open <strong>Shortcuts</strong> &rarr; <strong>Automation</strong> &rarr; <strong>+</strong>.</li>
+          <li>Choose <strong>CarPlay</strong> &rarr; <strong>Disconnects</strong>, or <strong>Bluetooth</strong> &rarr; your car &rarr; <strong>Is Disconnected</strong>.</li>
+          <li>Choose <strong>Run Immediately</strong>.</li>
+          <li>Add the action <strong>Save Parking Spot</strong> from Carrow, then tap <strong>Done</strong>.</li>
+        </ol>
+        <p>You can also say &ldquo;Hey Siri, save my parking spot in Carrow&rdquo;, or add the <strong>Save Parking Spot</strong> control to Control Center on iOS 18 and later.</p>
+
+        <h2 id="floors">How floor detection works</h2>
+        <p>Your iPhone&rsquo;s barometer senses tiny changes in air pressure: one garage floor is roughly 0.4 hPa. Carrow compares the pressure where you parked with the pressure where you are now. Because weather also changes air pressure, estimates are most reliable within the first hour or two, which is why Carrow shows a confidence level. Carrow also measures the difference between your car and the exit you walked out of, which stays accurate no matter how long you&rsquo;re away.</p>
+        <p>If Carrow is often off by one floor, adjust <strong>Settings &rarr; Floor height</strong> (most garages are 2.8&ndash;3.5 m per level). A level you type or confirm from a sign photo always takes priority.</p>
+
+        <h2 id="walk">Walking back</h2>
+        <p>Indoor guidance is approximate. Carrow reverses the steps and compass headings from your walk out. Steel and concrete can disturb the compass, so treat the arrow as a pointer and watch for your level signs. For the best result, keep Carrow open and hold your phone in front of you as you walk out after parking.</p>
+
+        <h2 id="trouble">Troubleshooting</h2>
+        <ul>
+          <li><strong>&ldquo;No GPS signal&rdquo;.</strong> GPS rarely works underground. Add the level or a sign photo; if you recorded your walk out, the map shows the exit you used.</li>
+          <li><strong>&ldquo;No barometer on this iPhone&rdquo;.</strong> A few models lack a barometer. Use the sign photo or type the level instead.</li>
+          <li><strong>Floor not recorded.</strong> Make sure Motion &amp; Fitness is on: Settings &rarr; Privacy &amp; Security &rarr; Motion &amp; Fitness &rarr; Carrow.</li>
+          <li><strong>Automation saved without GPS.</strong> Open Carrow once and allow location &ldquo;While Using the App&rdquo;.</li>
+          <li><strong>No meter reminders.</strong> Turn on notifications for Carrow in Settings &rarr; Notifications.</li>
+        </ul>
+
+        <h2 id="pro">Carrow Pro &amp; restoring</h2>
+        <p>You can try Carrow Pro free for 7 days from the app. When the trial ends nothing is charged; Pro features simply lock again until you unlock them. Carrow Pro is a one-time purchase that unlocks floor detection, sign reading, the walk-back guide, the meter timer with Live Activity, widgets and history. To restore it on a new iPhone, open <strong>Settings &rarr; Restore Purchases</strong> in Carrow while signed in with the same Apple Account. Refunds are handled by Apple at <a href="https://reportaproblem.apple.com">reportaproblem.apple.com</a>.</p>
+
+        <h2 id="more">Policies</h2>
+        <p>Read the <a href="/carrow/privacy/">Carrow privacy policy</a>. In short: Carrow collects no data, and everything stays on your iPhone.</p>
+      </article>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <img class="brand-mark" src="/assets/img/crumb-mark.png?v=2" width="32" height="32" alt="">
+        <span>Crumb Studios</span>
+      </div>
+      <ul class="footer-links">
+        <li><a href="/">Home</a></li>
+        <li><a href="/privacy/">Privacy</a></li>
+        <li><a href="/support/">Support</a></li>
+        <li><a href="/terms/">Terms</a></li>
+      </ul>
+      <p class="footer-legal">&copy; <span id="year">2026</span> Crumb Studios LLC. All rights reserved.</p>
+    </div>
+  </footer>
+  <script src="/assets/js/main.js?v=2" defer></script>
+</body>
+</html>
