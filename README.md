@@ -15,7 +15,7 @@ Plain HTML/CSS/JS — no build step, no external fonts, scripts or trackers.
 
 ## Contact details
 
-- Contact email: crumbstudios@proton.me (Privacy, Support and Terms pages)
+- Contact email: dev@crumbstudiosllc.com (Privacy, Support and Terms pages)
 - Governing law: New Jersey (Terms)
 
 Section 7 of the privacy policy covers Toast Clicker's Google AdMob rewarded ads. If the ad setup changes (new ad formats, asking for App Tracking Transparency, adding analytics), update that section first.
